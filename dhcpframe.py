@@ -1,6 +1,6 @@
 import struct
 
-print("Naitik Mehta Pcap")
+print("DHCP FRAME Pcap")
 
 
 file_path = input("Enter the file path for the PCAP file: ")
