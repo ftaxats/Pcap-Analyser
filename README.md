@@ -20,10 +20,9 @@ This is a Python program designed to analyze the global header of a PCAP file an
 
 To use this program, simply run the Python script and provide the file path of the PCAP file as an input when prompted. For example:
 
-python
-Copy code
-$ python pcap_header_analysis.py
-Enter the file path: /path/to/pcap/file.pcap
+```python
+  python globalheader.py  
+```
 The program will then analyze the PCAP file and provide the requested information.
 
 <b>Program Overview</b>
@@ -46,9 +45,9 @@ file_path: The path of the input PCAP file.
 
 Clone or download the repository. Run the script with the following command:
 
-python
-Copy code
-python pcapheader.py
+```python
+python dhcpframe.py
+```
 Enter the path of the input PCAP file when prompted.
 
 </details>
@@ -66,9 +65,9 @@ url_pattern: The regular expression pattern to search for website URLs.
 
 Clone or download the repository. Run the script with the following command:
 
-python
-Copy code
+```python
 python domain.py
+```
 Enter the path of the input PCAP file when prompted. Enter "1" to search for URLs with a specific domain extension. Enter the domain extension to search for when prompted (e.g. ".com", ".org", ".edu"). The script will print out a list of website URLs that match the specified domain extension.
 
 </details>
@@ -85,9 +84,9 @@ pcap_file_path: The path of the input PCAP file.
 
 Clone or download the repository. Run the script with the following command:
 
-python
-Copy code
+```python
 python Searchengine.py
+```
 Enter the path of the input PCAP file when prompted. The script will print out a list of search engine keywords used in the PCAP file, grouped by search engine.
 
 </details>
