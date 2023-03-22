@@ -15,3 +15,17 @@ The Searchengine.py program is designed to find out which search engine and whic
 PCAP File Header Analysis Tool
 This is a Python program designed to analyze the global header of a PCAP file and provide information such as the length of the global header, the magic number and the endianness of the PCAP file, the major and minor version numbers of the file format, the SnapLength, and the data link type.
 
+Usage
+To use this program, simply run the Python script and provide the file path of the PCAP file as an input when prompted. For example:
+
+'''python
+$ python pcap_header_analysis.py
+Naitik Mehta PCAP
+Enter the file path: /path/to/pcap/file.pcap
+'''
+The program will then analyze the PCAP file and provide the requested information.
+
+Program Overview
+This program uses the Python struct module to read the binary data of the global header of the PCAP file. The program then extracts the required information from the binary data using the unpack function and the correct format string.
+
+The program checks the magic number to determine the endianness of the PCAP file, and then prints out the required information to the console.
