@@ -9,7 +9,7 @@ def find_website_urls(pcap_file_path, url_pattern):
 
 def main():
   
-    print("Naitik Mehta PCAP")
+    print("Domain Extension PCAP")
 
     task = input("Select a task (1): ")
 
