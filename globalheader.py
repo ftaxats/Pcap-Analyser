@@ -2,7 +2,7 @@ import struct
 
 def main():
  
-    print("Naitik Mehta PCAP")
+    print("Global Header PCAP")
 
   
     file_path = input("Enter the file path: ")
