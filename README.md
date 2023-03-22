@@ -12,7 +12,7 @@ The domain.py program is designed to find suspected websites whose domain name e
 
 The Searchengine.py program is designed to find out which search engine and which keywords the user used to search for information before getting infected or attacked. The program also identifies the website that the search engine recommended and the user actually accessed. The program achieves this by using Regular Expression in Python to search for URLs in the PCAP file and matching them with a list of known search engines.
 
-<details>
+<PCAP File Header Analysis Tool>
 PCAP File Header Analysis Tool
 This is a Python program designed to analyze the global header of a PCAP file and provide information such as the length of the global header, the magic number and the endianness of the PCAP file, the major and minor version numbers of the file format, the SnapLength, and the data link type.
 
@@ -21,7 +21,6 @@ To use this program, simply run the Python script and provide the file path of t
 
 ```python
 $ python pcap_header_analysis.py
-Naitik Mehta PCAP
 Enter the file path: /path/to/pcap/file.pcap
 ```
 The program will then analyze the PCAP file and provide the requested information.
@@ -30,4 +29,60 @@ Program Overview
 This program uses the Python struct module to read the binary data of the global header of the PCAP file. The program then extracts the required information from the binary data using the unpack function and the correct format string.
 
 The program checks the magic number to determine the endianness of the PCAP file, and then prints out the required information to the console.
-<details>
+<Pcap File Parser>
+  Pcap File Parser
+This is a simple Python script that extracts and prints information from a PCAP file.
+
+Parameters
+The script uses the following parameters:
+
+file_path: The path of the input PCAP file.
+Usage
+Clone or download the repository.
+Run the script with the following command: 
+ ```python 
+  python pcapheader.py
+ ```
+Enter the path of the input PCAP file when prompted.
+
+<Domain Extension Finder>
+  
+PCAP URL Extractor
+This is a Python script that extracts website URLs from a PCAP file based on a specified domain extension.
+
+Parameters
+The script uses the following parameters:
+
+pcap_file_path: The path of the input PCAP file.
+url_pattern: The regular expression pattern to search for website URLs.
+Usage
+Clone or download the repository.
+Run the script with the following command: 
+ ```python
+  python domain.py
+ ```
+Enter the path of the input PCAP file when prompted.
+Enter "1" to search for URLs with a specific domain extension.
+Enter the domain extension to search for when prompted (e.g. ".com", ".org", ".edu").
+The script will print out a list of website URLs that match the specified domain extension.
+  
+  <Search Engine Finder>
+    
+    PCAP Search Engine Keyword Extractor
+This is a Python script that extracts search engine keywords from a PCAP file.
+
+Parameters
+The script uses the following parameters:
+
+pcap_file_path: The path of the input PCAP file.
+Usage
+Clone or download the repository.
+Run the script with the following command: python
+ ```python
+    python Searchengine.py
+ ```
+Enter the path of the input PCAP file when prompted.
+The script will print out a list of search engine keywords used in the PCAP file, grouped by search engine.
+
+
+  
