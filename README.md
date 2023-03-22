@@ -13,7 +13,7 @@ The domain.py program is designed to find suspected websites whose domain name e
 The Searchengine.py program is designed to find out which search engine and which keywords the user used to search for information before getting infected or attacked. The program also identifies the website that the search engine recommended and the user actually accessed. The program achieves this by using Regular Expression in Python to search for URLs in the PCAP file and matching them with a list of known search engines.
 
 <details>
-<summary>PCAP File Header Analysis Tool<summary>
+PCAP File Header Analysis Tool
 This is a Python program designed to analyze the global header of a PCAP file and provide information such as the length of the global header, the magic number and the endianness of the PCAP file, the major and minor version numbers of the file format, the SnapLength, and the data link type.
 
 Usage
