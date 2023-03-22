@@ -33,7 +33,7 @@ def extract_search_engine_keywords(pcap_file_path):
 
 def main():
   
-    print("Naitik Mehta PCAP")
+    print("Searchengine PCAP")
 
 
     pcap_file_path = input("Enter the directory for the PCAP file: ")
