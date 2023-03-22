@@ -18,11 +18,11 @@ This is a Python program designed to analyze the global header of a PCAP file an
 Usage
 To use this program, simply run the Python script and provide the file path of the PCAP file as an input when prompted. For example:
 
-'''python
+```python
 $ python pcap_header_analysis.py
 Naitik Mehta PCAP
 Enter the file path: /path/to/pcap/file.pcap
-'''
+```
 The program will then analyze the PCAP file and provide the requested information.
 
 Program Overview
