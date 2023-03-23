@@ -1,7 +1,6 @@
 # Pcap-Analyser
 This GitHub repository contains a set of Python programs that are designed to analyze PCAP files for potential security threats. The repository consists of Four programs, each of which is designed to perform a specific task related to analyzing PCAP files.
 PCAP File Analysis Tool
-This is a set of Python programs designed to analyze PCAP files for potential security threats. The repository consists of six programs, each of which is designed to perform a specific task related to analyzing PCAP files.
 
 Program Overview
 The globalheader.py program is designed to analyze the global header of the PCAP file and provide information such as the length of the global header, the magic number and the endianness of the PCAP file, the major and minor version numbers of the file format, the SnapLength, and the data link type.
